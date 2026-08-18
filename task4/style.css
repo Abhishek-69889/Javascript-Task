@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  gap: 50px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: rgb(224, 63, 63);
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}

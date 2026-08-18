@@ -1,0 +1,12 @@
+Toggle
+
+Create:
+
+A box
+Button: Toggle Box
+
+Clicking the button should hide/show the box.
+
+Challenge: Use only one button.
+
+You learn: Conditional logic + DOM.

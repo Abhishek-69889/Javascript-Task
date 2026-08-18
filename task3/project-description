@@ -1,0 +1,13 @@
+Task 3: Show / Hide
+
+Create:
+
+A paragraph containing some text
+Button: Hide
+Button: Show
+
+Clicking Hide should hide the paragraph. Clicking Show should display it again.
+
+You learn:
+
+element.style.display

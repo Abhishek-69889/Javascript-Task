@@ -1,0 +1,17 @@
+Random Color Generator
+
+Create:
+
+Current Color: #ffffff
+
+
+[Generate Color]
+
+Every click generates a random color and changes the page background.
+
+You learn:
+
+Math.random()
+Functions
+DOM manipulation
+CSS interaction

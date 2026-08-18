@@ -1,0 +1,12 @@
+Digital Clock
+
+Create:
+
+17:35:42
+
+The time should update every second.
+
+You learn:
+
+setInterval()
+Date()

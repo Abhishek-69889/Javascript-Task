@@ -1,0 +1,15 @@
+Task 1: Change Text
+
+Goal: Understand getElementById, textContent, and onclick.
+
+Create:
+
+A heading: Hello JavaScript
+A button: Change Text
+
+When the button is clicked, change the heading to:
+
+JavaScript is working!
+
+You learn:
+document.getElementById() → selecting HTML → changing DOM.

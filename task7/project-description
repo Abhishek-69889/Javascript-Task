@@ -1,0 +1,21 @@
+Character Counter
+
+Create a textarea:
+
+Write something...
+
+
+Characters: 0
+
+As the user types, update the character count.
+
+For example:
+
+Characters: 15
+
+You learn:
+
+input event
+.value
+.length
+Real-time DOM updates

@@ -1,0 +1,19 @@
+Greeting App
+
+Create:
+
+Enter your name: [________]
+
+
+[Say Hello]
+
+
+Hello, Abhishek!
+
+Whatever the user enters should appear after clicking the button.
+
+You learn:
+
+input.value
+
+This is extremely important because almost every real application receives user input.

@@ -1,0 +1,25 @@
+Simple To-Do App
+
+Build:
+
+        My Todo
+
+
+[Learn JavaScript] [Add]
+
+
+☐ Learn JavaScript     [Delete]
+☑ Complete HTML       [Delete]
+☐ Practice DOM        [Delete]
+
+Requirements:
+
+Add task
+Delete task
+Mark task completed
+Show completed task differently
+Prevent empty tasks
+
+Don't use localStorage yet.
+
+This single project combines almost everything you've learned.

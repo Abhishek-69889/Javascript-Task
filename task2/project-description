@@ -1,0 +1,10 @@
+Create:
+
+A paragraph
+A button: Make Red
+
+When clicked, make the paragraph text red.
+
+You learn:
+
+element.style.color

@@ -1,0 +1,22 @@
+Simple Calculator
+
+Create:
+
+Number 1: [____]
+Number 2: [____]
+
+
+[Add]
+
+
+Result: 25
+
+Add the two numbers and display the result.
+
+Then add:
+
+Subtract
+Multiply
+Divide
+
+You learn: DOM + input + type conversion + functions.

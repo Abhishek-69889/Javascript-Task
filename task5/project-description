@@ -1,0 +1,19 @@
+Counter
+
+Create:
+
+Count: 0
+
+
+[-] [+]
+
++ increases the count.
+
+- decreases the count.
+
+You learn:
+
+Variables
+Event listeners
+Updating DOM
+Functions

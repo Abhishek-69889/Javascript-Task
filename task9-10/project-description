@@ -1,0 +1,49 @@
+Task 9:- Add Items to a List
+
+Create:
+
+[Enter item] [Add]
+
+
+My Items:
+
+
+• HTML
+• CSS
+• JavaScript
+
+When the user enters:
+
+React
+
+and clicks Add:
+
+• HTML
+• CSS
+• JavaScript
+• React
+
+You learn:
+
+createElement()
+appendChild()
+
+This is a very important step toward understanding how React works.
+
+Task 10: Delete Items
+
+Extend Task 9.
+
+Each item should have:
+
+HTML     [Delete]
+CSS      [Delete]
+JavaScript [Delete]
+
+Click Delete → remove that item.
+
+You learn:
+
+Event handling
+DOM element removal
+Dynamic elements

@@ -24,6 +24,7 @@ btn.addEventListener("click",()=>{
     
     div1.classList.add("list-main");
     inp1.type="checkbox";
+    inp1.style.cursor="Pointer";
 
     arr.forEach(item=>{
       li.innerText=item;

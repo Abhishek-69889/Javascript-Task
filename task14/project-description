@@ -1,0 +1,14 @@
+Take Task 13 and add:
+
+When I refresh the browser, my tasks should still exist.
+
+Use:
+
+localStorage
+
+You should figure out:
+
+JSON.stringify()
+JSON.parse()
+
+This is where JavaScript starts becoming useful for actual applications.

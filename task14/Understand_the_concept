@@ -1,0 +1,156 @@
+/*
+# localStorage Practice Guide
+
+> **Learning approach:** First understand this example and run it yourself. Then close the code, try to implement the same functionality from memory, and finally complete **Task 12** on your own. This will give you much better practice than simply copying the code.
+
+---
+
+## 1. What is localStorage?
+
+`localStorage` allows the browser to store data that remains available even after refreshing or reopening the webpage.
+
+### Store data
+
+```js
+localStorage.setItem("name", "Abhishek");
+```
+
+`"name"` is the **key** and `"Abhishek"` is the **value**.
+
+### Get data
+
+```js
+let name = localStorage.getItem("name");
+
+console.log(name);
+```
+
+This retrieves the value stored under the `"name"` key.
+
+### Remove data
+
+```js
+localStorage.removeItem("name");
+```
+
+This removes the data stored under the `"name"` key.
+
+> **Important:** `removeItem()` takes the **key**, not the value.
+
+---
+
+## 2. Complete Example
+
+This example demonstrates the basic operations of `localStorage`:
+
+```js
+let input = document.querySelector("#name");
+let save = document.querySelector("#save");
+let show = document.querySelector("#show");
+let remove = document.querySelector("#remove");
+let h2 = document.querySelector("h2");
+
+// Save data
+save.addEventListener("click", () => {
+  localStorage.setItem("name", input.value);
+});
+
+// Retrieve data
+show.addEventListener("click", () => {
+  let name = localStorage.getItem("name");
+
+  h2.innerText = name;
+});
+
+// Remove data
+remove.addEventListener("click", () => {
+  localStorage.removeItem("name");
+
+  h2.innerText = "";
+});
+```
+
+---
+
+## 3. Understand the Flow
+
+### Save
+
+```text
+User enters name
+       ↓
+input.value
+       ↓
+localStorage.setItem()
+       ↓
+Browser stores the data
+```
+
+### Show
+
+```text
+localStorage
+       ↓
+getItem("name")
+       ↓
+Retrieve stored value
+       ↓
+Display it
+```
+
+### Remove
+
+```text
+removeItem("name")
+       ↓
+Delete the stored data
+       ↓
+Clear the displayed name
+```
+
+---
+
+## 4. The Four Methods You Must Remember
+
+```js
+localStorage.setItem("key", "value");  // Store
+localStorage.getItem("key");           // Retrieve
+localStorage.removeItem("key");        // Remove one item
+localStorage.clear();                  // Remove everything
+```
+
+### Remember the difference
+
+```js
+localStorage.setItem("name", "Abhishek");
+                         ↑       ↑
+                        key    value
+```
+
+Therefore:
+
+```js
+localStorage.getItem("name");
+localStorage.removeItem("name");
+```
+
+Both use `"name"` because `"name"` is the **key**.
+
+---
+
+## 5. Practice Challenge
+
+After understanding the example, **do not copy the code directly into Task 12**.
+
+Try to build it yourself.
+
+Your goal should be to understand:
+
+* How to store user input
+* How to retrieve stored data
+* How to remove stored data
+* How `localStorage` survives page refreshes
+* The difference between a **key** and a **value**
+
+Once you understand this example, move to **Task 12** and implement `localStorage` there without looking at this solution.
+*/

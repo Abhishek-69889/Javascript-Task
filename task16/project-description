@@ -1,0 +1,20 @@
+Search Filter
+
+Create 10 products:
+
+Apple
+Banana
+Mango
+Orange
+Grapes
+...
+
+Add:
+
+[Search products...]
+
+Typing man should show only:
+
+Mango
+
+This teaches a concept you'll use constantly in frontend development: filtering data and updating UI.

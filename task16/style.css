@@ -15,17 +15,37 @@ body{
   gap: 20px;
 }
 
+
 ul{
   height: 300px;
   overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+        display: none;
+    }
+  
+  border: 1px solid red;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
 }
 
 li{
-  list-style: none;
+  /* list-style: none; */
   margin: 10px;
   cursor: pointer;
+  font-size: 23px;
 }
 
 input{
+  width: 300px;
+  height: 40px;
   outline: none;
+  border: 1px solid red;
+  border-radius: 20px;
+  background-color: #0000003f;
+  color: Red;
+  padding: 20px;
 }

@@ -14,8 +14,7 @@ let items = ["apple", "banana", "cat", "dog", "house", "sun", "moon", "star", "t
 })(items);
 
 input.addEventListener("input",()=>{
-  const result = items.filter(element=>element.toLocaleLowerCase().includes(input.value.toLocaleLowerCase()))
-  console.log(result);
+  const result = items.filter(element=>element.toLocaleLowerCase().includes(input.value.toLocaleLowerCase()));
   if(result.length>0){
     ul.innerText="";
     result.forEach(element => {
